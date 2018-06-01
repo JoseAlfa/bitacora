@@ -1,0 +1,163 @@
+	.salirModal {
+	    
+	}
+	.ajustesModal{
+
+	}
+	.nocalif{
+		color: #000;
+	}
+	.color-blue{
+		color: #4B96FD;
+	}
+	.color-blan{
+		color: #fff;
+	}
+	.color-red{
+		color: #F44336;
+	}
+	.input-field label {
+	   color: #4B96FD;
+	}
+	/*Boton comentar*/
+
+	.com-btn {
+	    padding: 0.3rem;
+	    padding-bottom: 0.3rem;
+	    padding-top: 0.3rem;
+	    line-height: 3px;
+	    height: 25px;
+	    font-size: 0.8rem;
+	}
+	/* mensaje para validar usr */
+	.validar-usr{
+		color: #26a69a;
+	}
+	/* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #4B96FD;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #4B96FD;
+     box-shadow: 0 1px 0 0 #458EF1;
+   }
+   /* valid color 
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #458EF1;
+     box-shadow: 0 1px 0 0 #458EF1;
+   }*/
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #458EF1;
+   }
+   .icon-log{
+   	width: 25px;
+   	height: 25px;
+   }
+   .icons{
+   	font-size: 1.5rem !important;
+   	margin-top: 8px !important;
+   	margin-left: 10px !important;
+   }
+   .ver{
+   	display: none;
+   }
+   .ver-rev{
+   	display: inline;
+   }
+.img-war{
+	max-width: 100%;
+	max-height: 300px !important;
+}
+.botones-modal{
+	white-space: normal;
+}   
+#div_load{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 3200;
+	filter: alpha(opacity=65);
+	-moz-opacity:65;
+	opacity: 0.65;
+	background: #999;
+}
+#sidenav-overlay {
+    position: initial;
+}
+.mapa{
+	width: 400px;
+	height: 400px;
+}
+@media only screen and (max-width: 992px) {
+	.ver{
+		display: inline;		
+	}
+	.ver-rev{
+		display: none;		
+	}
+	.botones-modal{
+		margin-left: 50%;
+	}
+}
+@media only screen and (max-width: 870px) {
+	.botones-modal{
+		margin-left: 40%;
+	}
+}
+@media only screen and (max-width: 740px) {
+	.botones-modal{
+		margin-left: 20%;
+	}
+}
+@media only screen and (max-width: 740px) {
+	.botones-modal{
+		margin-left: 5%;
+	}
+	.mapa{
+		width: 560px !important;
+		height: 400px !important;
+	}
+}
+@media only screen and (max-width: 412px) {
+	.mapa{
+		width: 270px !important;
+		height: 300px !important;
+	}
+}
+@media only screen and (max-width: 470px) {
+	.salirModal {
+	    width: 90%;
+	    height: 35%;
+	}
+	.ajustesModal{
+		width: 90%;
+	}
+	.botones-modal{
+		margin-right: 5%;
+	}
+	.btns{
+		display: block;
+  		width: 100%;padding: block;
+	}
+	.leftyo {
+	  float: right !important;
+	  margin-left: 15px;
+	}
+}
+@media only screen and (min-width: 700px) {
+	.modalmio {
+	    width: 70% !important;
+	}	
+}
+@media only screen and (min-width: 800px) {
+	.modalmio {
+	    width: 49% !important;
+	}	
+}
+@media only screen and (min-width: 1100px) {
+	.modalmio {
+	    width: 39% !important;
+	}	
+}
